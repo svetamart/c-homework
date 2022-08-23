@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿int a = Convert.ToInt32(Console.ReadLine());
+
+if(a % 2 == 0)
+{
+    Console.WriteLine("да");
+}
+else
+{
+    Console.WriteLine("нет");
+}
